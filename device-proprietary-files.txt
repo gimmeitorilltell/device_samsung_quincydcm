@@ -28,3 +28,10 @@ etc/firmware/bcm4330B1.hcd
 
 # emoji
 lib/libemoji_docomo.so
+
+# sec
+framework/secframework.jar
+
+# S Memo
+lib/libdhwr.so
+lib/libdhwrex.so
