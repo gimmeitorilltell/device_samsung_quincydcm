@@ -24,21 +24,29 @@
 -include device/samsung/quincy-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/samsung/quincyatt/BoardConfigVendor.mk
+-include vendor/samsung/quincydcm/BoardConfigVendor.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := SGH-I717
+TARGET_BOOTLOADER_BOARD_NAME := SC-05D
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := SGH-I717,quincyatt
+TARGET_OTA_ASSERT_DEVICE := SC-05D,quincydcm
 
 # Kernel
-TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-common
-TARGET_KERNEL_CONFIG        := cyanogenmod_quincyatt_defconfig
+TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-dcm
+TARGET_KERNEL_CONFIG        := cyanogenmod_quincydcm_defconfig
 
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x00A00000
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x00A00000
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1073741824
+# Normal system image size (1.0G)
+#BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1073741824
+# SD boot system image size (300M)
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 314572800
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 2147483648
 BOARD_FLASH_BLOCK_SIZE := 131072
 
+# secondary sdcard
+BOARD_SDCARD_DEVICE_SECONDARY := /dev/block/mmcblk0p29
+
+# vold
+BOARD_VOLD_MAX_PARTITIONS := 29

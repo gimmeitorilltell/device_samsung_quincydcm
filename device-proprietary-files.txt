@@ -3,7 +3,28 @@
 lib/hw/nfc.qcom.so
 lib/libpn544_fw.so
 
+# apn
+etc/apns-conf.xml
+
+# font
+vendor/etc/fallback_fonts.xml
+fonts/MTLmr3m.ttf
+fonts/truetypeEmoji.ttf
+
+# GPS
+bin/gpsone_daemon
+lib/libgpsone_bit_api.so
+
+# DivX
+/lib/libDivxDrm.so
+
 # Wi-Fi
 etc/wifi/nvram_net.txt_murata
 etc/wifi/nvram_mfg.txt_murata
 
+# firmware
+etc/firmware/RS_M5LS_OO.bin
+etc/firmware/bcm4330B1.hcd
+
+# emoji
+lib/libemoji_docomo.so

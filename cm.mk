@@ -1,4 +1,4 @@
-$(call inherit-product, device/samsung/quincyatt/full_quincyatt.mk)
+$(call inherit-product, device/samsung/quincydcm/full_quincydcm.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/gsm.mk)
@@ -9,10 +9,10 @@ $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SGH-I717 TARGET_DEVICE=SGH-I717 BUILD_FINGERPRINT="samsung/SGH-I717/SGH-I717:4.0.4/IMM76D/UCLE3:user/release-keys" PRIVATE_BUILD_DESC="SGH-I717-user 4.0.4 IMM76D UCLE3 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SC-05D TARGET_DEVICE=SC-05D BUILD_FINGERPRINT="samsung/SC-05D/SC-05D:4.0.4/IMM76D/OMLPL:user/release-keys" PRIVATE_BUILD_DESC="SC-05D-user 4.0.4 IMM76D OMLPL release-keys"
 
 TARGET_BOOTANIMATION_NAME := vertical-800x1280
 
-PRODUCT_NAME := cm_quincyatt
-PRODUCT_DEVICE := quincyatt
+PRODUCT_NAME := cm_quincydcm
+PRODUCT_DEVICE := quincydcm
 
