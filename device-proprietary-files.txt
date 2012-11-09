@@ -7,8 +7,6 @@ lib/libpn544_fw.so
 etc/apns-conf.xml
 
 # font
-vendor/etc/fallback_fonts.xml
-fonts/MTLmr3m.ttf
 fonts/truetypeEmoji.ttf
 
 # GPS
@@ -30,7 +28,11 @@ etc/firmware/bcm4330B1.hcd
 lib/libemoji_docomo.so
 
 # sec
+framework/twframework-res.apk
+framework/twframework.jar
 framework/secframework.jar
+etc/permissions/secmediarecorder.xml
+etc/permissions/touchwiz.xml
 
 # S Memo
 lib/libdhwr.so
