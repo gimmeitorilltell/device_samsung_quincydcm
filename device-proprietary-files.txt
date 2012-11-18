@@ -31,6 +31,7 @@ lib/libemoji_docomo.so
 framework/twframework-res.apk
 framework/twframework.jar
 framework/secframework.jar
+framework/secmediarecorder.jar
 etc/permissions/secmediarecorder.xml
 etc/permissions/touchwiz.xml
 
