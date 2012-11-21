@@ -34,6 +34,9 @@ framework/secframework.jar
 framework/secmediarecorder.jar
 etc/permissions/secmediarecorder.xml
 etc/permissions/touchwiz.xml
+/lib/libsecmediarecorder_jni.so
+/lib/libseccamera_jni.so
+/lib/libarccamera.so
 
 # S Memo
 lib/libdhwr.so
