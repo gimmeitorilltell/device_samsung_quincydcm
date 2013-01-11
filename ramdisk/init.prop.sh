@@ -4,6 +4,8 @@ export PATH=/system/bin:/system/xbin
 
 PROP_PATH=/data/tweakgnt.prop
 
+setprop ro.kbc.propwritable 1
+
 BOOT_SND=`grep audioflinger\.bootsnd $PROP_PATH | cut -d'=' -f2`
 if [ "$BOOT_SND" = '1' ]; then
     setprop audioflinger.bootsnd 1
@@ -23,3 +25,4 @@ if [ -n "$LCD_DENSITY" ]; then
     setprop ro.sf.lcd_density $LCD_DENSITY
 fi
 
+setprop ro.kbc.propwritable 0

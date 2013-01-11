@@ -41,3 +41,14 @@ etc/permissions/touchwiz.xml
 # S Memo
 lib/libdhwr.so
 lib/libdhwrex.so
+
+# QCOM Display
+lib/hw/copybit.msm8660.so
+lib/hw/gralloc.msm8660.so
+lib/hw/hwcomposer.msm8660.so
+lib/libgenlock.so
+lib/libmemalloc.so
+lib/liboverlay.so
+lib/libqdutils.so
+lib/libtilerenderer.so
+lib/libI420colorconvert.so

@@ -35,7 +35,7 @@ persist.data_netmgrd_nint=16
 #
 # system props for SD card emulation of emmc partition
 #
-ro.emmc.sdcard.partition=17
+ro.emmc.sdcard.partition=29
 
 #system props for time-services
 persist.timed.enable=true
