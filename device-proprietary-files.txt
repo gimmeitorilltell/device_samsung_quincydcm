@@ -12,6 +12,8 @@ fonts/truetypeEmoji.ttf
 # GPS
 bin/gpsone_daemon
 lib/libgpsone_bit_api.so
+lib/librpc.so
+lib/hw/gps.msm8660.so
 
 # DivX
 /lib/libDivxDrm.so
