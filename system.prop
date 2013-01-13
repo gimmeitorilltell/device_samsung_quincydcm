@@ -82,3 +82,7 @@ persist.radio.snapshot_disabled=1
 
 # docomo
 ro.config.libemoji=libemoji_docomo.so
+
+# HDMI
+com.qc.hdmi_out=true
+ro.hdmi.enable=true
