@@ -5,4 +5,4 @@
 /system     ext4        /dev/block/mmcblk0p24
 /cache      ext4        /dev/block/mmcblk0p26
 /sdcard     vfat        /dev/block/mmcblk0p29
-/emmc       auto        /dev/block/mmcblk1p1    /dev/block/mmcblk1
+/external_sd auto        /dev/block/mmcblk1p1    /dev/block/mmcblk1

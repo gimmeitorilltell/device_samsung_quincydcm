@@ -9,12 +9,6 @@ etc/apns-conf.xml
 # font
 fonts/truetypeEmoji.ttf
 
-# GPS
-bin/gpsone_daemon
-lib/libgpsone_bit_api.so
-lib/librpc.so
-lib/hw/gps.msm8660.so
-
 # DivX
 /lib/libDivxDrm.so
 
@@ -29,28 +23,6 @@ etc/firmware/bcm4330B1.hcd
 # emoji
 lib/libemoji_docomo.so
 
-# sec
-framework/twframework-res.apk
-framework/twframework.jar
-framework/secframework.jar
-framework/secmediarecorder.jar
-etc/permissions/secmediarecorder.xml
-etc/permissions/touchwiz.xml
-/lib/libsecmediarecorder_jni.so
-/lib/libseccamera_jni.so
-/lib/libarccamera.so
-
 # S Memo
 lib/libdhwr.so
 lib/libdhwrex.so
-
-# QCOM Display
-lib/hw/copybit.msm8660.so
-lib/hw/gralloc.msm8660.so
-lib/hw/hwcomposer.msm8660.so
-lib/libgenlock.so
-lib/libmemalloc.so
-lib/liboverlay.so
-lib/libqdutils.so
-lib/libtilerenderer.so
-lib/libI420colorconvert.so
