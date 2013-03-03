@@ -9,39 +9,46 @@ nocrc=1
 xtalfreq=37400
 boardnum=22
 macaddr=00:90:4c:c5:12:38
-ag0=252
+ag0=0
 aa2g=1
 aa5g=1
-ccode=US
+ccode=JP
 regrev=5
-# 2G PA parameters
-pa0b0=0x1538
-pa0b1=0xfd90
-pa0b2=0xff68
+pa0b0=0x1531
+pa0b1=0xfd93
+pa0b2=0xff6b
 cckPwrOffset=4
+
+# rssi params for 2.4GHz
 rssismf2g=0xa
 rssismc2g=0x3
 rssisav2g=0x7
+
+# rssi params for 5GHz
 rssismf5g=0xa
 rssismc5g=0x7
 rssisav5g=0x1
-# 5G Low ch PA parameters
-pa1lob0=0x1457
-pa1lob1=0xfd65
-pa1lob2=0xff3e
-# 5G Mid ch PA parameters
-pa1b0=0x144f
-pa1b1=0xfd61
-pa1b2=0xff3d
-# 5G High ch PA parameters
-pa1hib0=0x1441
-pa1hib1=0xfd67
-pa1hib2=0xff44
+
+#PA parameters for lower a-band
+pa1lob0=0x150c
+pa1lob1=0xfd53
+pa1lob2=0xff42
+
+#PA parameters for midband
+pa1b0=0x1515
+pa1b1=0xfd58
+pa1b2=0xff4a
+
+#PA parameters for high band
+pa1hib0=0x149b
+pa1hib1=0xfd64
+pa1hib2=0xff4f
+
 sromrev=3
-maxp2ga0=0x50
+maxp2ga0=0x48
 ofdm2gpo=0x55555555
-mcs2gpo0=0x9999
-mcs2gpo1=0x9999
+mcs2gpo0=0x7777
+mcs2gpo1=0x7777
 maxp5ga0=0x48
 maxp5gla0=0x48
 maxp5gha0=0x48
@@ -54,31 +61,53 @@ mcs5glpo0=0x7777
 mcs5glpo1=0x7777
 mcs5ghpo0=0x7777
 mcs5ghpo1=0x7777
+
 extpagain5g=2
+
+#to help 2.4GHz Tx EVM/SM.
+rfreg033=0x19
+rfreg033_cck=0x1f
+txalpfbyp2g=1
+bphyscale=17
 pacalidx2g=65
 dacrate2g=160
-noise_cal_enable_2g=1
-noise_cal_po_2g= -3
-noise_cal_ref_2g=52
+
 swctrlmap_2g=0x04040404,0x02020202,0x04040404,0x010202,0x1ff
 swctrlmap_5g=0x50505050,0x28282020,0x20202020,0x010202,0x2f8
-#tridx5g=0
+
+#adjust the value for the max input level on 5GHz-band
+triso5g=9
+
 xtalmode=0x20,0x4,0
-initxidx5g=96
+
+#to help 5GHz RxPER at low rates.
+noise_cal_po_5g=5
+#noise_cal_enable_5g=0
+
+pa0itssit=0x20
+
+#to help with TX power control, especially temp.
+#tssitime=1
+
+#adjust the value for CCK SM/EVM.
+cckdigfilttype=21
+
+sd_gpout=0
+sd_oobonly=1
+btc_params80=0
+btc_params6=10
+btc_params8=10000
+
+#to help 5GHz LOFT (carrier suppression) and IQ CAL.
 txgaintbl5g=1
 txiqlopapu5g=1
 txiqlopag5g=0x10
 iqlocalidx5g=24
-rfreg033=0x19
-rfreg033_cck=0x1f
-noise_cal_po_5g=5
-loidacmode5g=1
-pa0itssit=0x62
-#tssitime=1
-cckdigfilttype=21
-txalpfbyp2g=1
-bphyscale=17
-btc_params80=0
-btc_params6=10
-btc_params8=10000
-muxenab=0x10
+
+#to help 2.4G RxPER at low rates.
+noise_cal_enable_2g=1
+noise_cal_po_2g=-3
+noise_cal_ref_2g=52
+
+#to enhance maximum input power performance on 5GHz-band.
+tridx5g=0
