@@ -1,7 +1,7 @@
 # Add device specific blobs here
 # NFC
 lib/hw/nfc.qcom.so
-lib/libpn544_fw.so
+vendor/firmware/libpn544_fw.so
 
 # apn
 etc/apns-conf.xml
@@ -10,15 +10,16 @@ etc/apns-conf.xml
 fonts/truetypeEmoji.ttf
 
 # DivX
-/lib/libDivxDrm.so
+#/lib/libDivxDrm.so
 
 # Wi-Fi
+bin/hostapd
 etc/wifi/nvram_net.txt_murata
 etc/wifi/nvram_mfg.txt_murata
 
 # firmware
-etc/firmware/RS_M5LS_OO.bin
-etc/firmware/bcm4330B1.hcd
+#etc/firmware/RS_M5LS_OO.bin
+#etc/firmware/bcm4330B1.hcd
 
 # emoji
 lib/libemoji_docomo.so
