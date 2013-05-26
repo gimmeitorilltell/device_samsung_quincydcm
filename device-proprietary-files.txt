@@ -3,28 +3,19 @@
 lib/hw/nfc.qcom.so
 vendor/firmware/libpn544_fw.so
 
-# sensors
-lib/hw/sensors.msm8660.so
-
-# apn
-etc/apns-conf.xml
-
-# font
-fonts/truetypeEmoji.ttf
-
-# DivX
-#/lib/libDivxDrm.so
-
 # Wi-Fi
 etc/wifi/nvram_net.txt_murata
 etc/wifi/nvram_mfg.txt_murata
 
-# firmware
-#etc/firmware/RS_M5LS_OO.bin
-#etc/firmware/bcm4330B1.hcd
+# apn
+etc/apns-conf.xml
+
+# DivX
+#/lib/libDivxDrm.so
 
 # emoji
 lib/libemoji_docomo.so
+fonts/truetypeEmoji.ttf
 
 # S Memo
 lib/libdhwr.so

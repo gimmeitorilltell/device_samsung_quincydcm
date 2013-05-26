@@ -15,4 +15,3 @@ TARGET_BOOTANIMATION_NAME := vertical-800x1280
 
 PRODUCT_NAME := cm_quincydcm
 PRODUCT_DEVICE := quincydcm
-
