@@ -29,8 +29,6 @@ BOARD_HAVE_NFC := true
 
 # quincydcm Ramdisk
 PRODUCT_COPY_FILES += \
-    device/samsung/quincydcm/ramdisk/init.rc:root/init.rc \
-    device/samsung/quincydcm/ramdisk/init.qcom.rc:root/init.qcom.rc \
     device/samsung/quincydcm/ramdisk/init.prop.sh:root/init.prop.sh \
     device/samsung/quincydcm/ramdisk/initlogo.rle:root/initlogo.rle
 
