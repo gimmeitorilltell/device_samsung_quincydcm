@@ -12,8 +12,8 @@
     "target_path": "device/samsung/quincy-common"
   },
   {
-    "repository": "android_kernel_samsung_msm8660-common",
-    "target_path": "kernel/samsung/msm8660-common"
+    "repository": "android_kernel_samsung_msm8660",
+    "target_path": "kernel/samsung/msm8660-dcm"
   },
   {
     "repository": "proprietary_vendor_samsung",
