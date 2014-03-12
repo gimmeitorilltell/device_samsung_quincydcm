@@ -4,8 +4,3 @@ Copyright 2012 - KBC Developers
 Device configuration for Samsung Galaxy Note (ntt docomo model).
 
 WORK IN PROGRESS. WILL EAT YOUR CAT.
-
-Please add the repo of sc06d to local_manifest.xml
-
-  <project name="kbc-developers/android_device_samsung_quincydcm" path="device/samsung/quincydcm" remote="github" revision="cm-10.1" />
-  <project name="kbc-developers/android_kernel_samsung_msm8660" path="kernel/samsung/msm8660-dcm" remote="github" revision="android-jb-mr1-v3" />
