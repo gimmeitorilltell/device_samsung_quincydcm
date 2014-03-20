@@ -30,7 +30,6 @@ BOARD_HAVE_NFC := true
 # quincydcm Ramdisk
 PRODUCT_COPY_FILES += \
     device/samsung/quincydcm/ramdisk/fstab.qcom:root/fstab.qcom \
-    device/samsung/quincydcm/ramdisk/init.prop.sh:root/init.prop.sh \
     device/samsung/quincydcm/ramdisk/initlogo.rle:root/initlogo.rle
 
 # Inherit from those products. Most specific first.

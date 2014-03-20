@@ -69,6 +69,7 @@ ro.sf.lcd_density=320
 
 # Fields for custom RIL
 telephony.lteOnGsmDevice=1
+ro.telephony.default_network=10
 
 # System property for SIM
 persist.radio.apm_sim_not_pwdn=1
@@ -81,11 +82,6 @@ persist.radio.add_power_save=1
 
 # System proverty snapshot disable
 persist.radio.snapshot_disabled=1
-
-# docomo
-ro.config.libemoji=libemoji_docomo.so
-ro.ril.enable.dcm.feature=1
-ro.telephony.default_network=9
 
 # HDMI
 com.qc.hdmi_out=true

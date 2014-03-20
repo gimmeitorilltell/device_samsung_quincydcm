@@ -13,12 +13,6 @@
   },
   {
     "repository": "android_kernel_samsung_msm8660",
-    "target_path": "kernel/samsung/msm8660-dcm"
-  },
-  {
-    "repository": "proprietary_vendor_samsung",
-    "target_path": "vendor/samsung"
+    "target_path": "kernel/samsung/msm8660-common"
   }
 ]
-
-

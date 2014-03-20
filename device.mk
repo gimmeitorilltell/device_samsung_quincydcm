@@ -22,7 +22,7 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/quincydcm/overlay
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
-    device/samsung/quincydcm/ramdisk/init.qcom.usb.rc:root/init.qcom.usb.rc \
+    device/samsung/quincydcm/ramdisk/init.qcom.usb.rc:root/init.qcom.usb.rc
 
 # BT firmware
 PRODUCT_COPY_FILES += \
