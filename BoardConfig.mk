@@ -47,9 +47,6 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/quincydcm/bluetooth
 
-# Recovery
-BOARD_RECOVERY_SWIPE := true
-
 # secondary sdcard
 BOARD_SDCARD_DEVICE_SECONDARY := /dev/block/mmcblk0p29
 
