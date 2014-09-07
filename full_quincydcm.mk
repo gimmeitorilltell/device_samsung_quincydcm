@@ -32,9 +32,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ramdisk/fstab.qcom:root/fstab.qcom \
     $(LOCAL_PATH)/ramdisk/initlogo.rle:root/initlogo.rle
 
-# NFC
-BOARD_HAVE_NFC := true
-
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_quincydcm
 PRODUCT_DEVICE := quincydcm
